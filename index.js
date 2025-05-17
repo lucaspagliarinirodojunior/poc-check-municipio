@@ -56,7 +56,7 @@ async function main() {
     const finder = new MunicipalityFinder();
 
     // Path to your shapefile
-    const shapefilePath = 'data/BR_Municipios_2024.shp';
+    const shapefilePath = 'dataMapa/BR_Municipios_2024.shp';
 
     // Setup readline interface
     const rl = readline.createInterface({
